@@ -7,13 +7,13 @@ InstallerType: inno
 Scope: machine
 UpgradeBehavior: install
 ProductCode: MediaHuman YouTube to MP3 Converter_is1
-ReleaseDate: 2026-08-20
+ReleaseDate: 2026-08-23
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.mediahuman.com/files/YouTubeToMP3.exe
-  InstallerSha256: 9E9F2F4E9725F3A0511CB834A3D285A1816F02035698D169E4A277D8A0735CE6
+  InstallerSha256: 41E93071F1BBC5DB3B631E866A590613FB5F23706FD432E891063063BA707374
 - Architecture: x64
   InstallerUrl: https://www.mediahuman.com/files/YouTubeToMP3-x64.exe
-  InstallerSha256: 6F0572505A332C5BBB3FDA8DC4CA5459F293CF10CF74F9B3F9C6D3D1DD051195
+  InstallerSha256: 0E83C18395E3B37316E3963C453555D416E28028B69A4C7A3CA4E93FDD50F69B
 ManifestType: installer
 ManifestVersion: 1.12.0
