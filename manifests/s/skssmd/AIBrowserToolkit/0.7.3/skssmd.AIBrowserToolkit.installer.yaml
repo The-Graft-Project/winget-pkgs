@@ -1,0 +1,26 @@
+# Created with WinGet Releaser using komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: skssmd.AIBrowserToolkit
+PackageVersion: 0.7.3
+InstallerLocale: en-US
+InstallerType: inno
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Custom: /CURRENTUSER
+UpgradeBehavior: install
+ProductCode: '{7C4C9B2E-2F1A-4E63-9D5B-3A1C8F6E2D74}_is1'
+ReleaseDate: 2026-09-29
+AppsAndFeaturesEntries:
+- ProductCode: '{7C4C9B2E-2F1A-4E63-9D5B-3A1C8F6E2D74}_is1'
+ElevationRequirement: elevatesSelf
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/skssmd/Ai-Browser-Toolkit/releases/download/v0.7.3/aibrowsertoolkit-0.7.3-windows-x86_64-setup.exe
+  InstallerSha256: B99925F1357D66A227411F24ADBB38FE106BDC97B5C6DA105F933AD1B226922F
+ManifestType: installer
+ManifestVersion: 1.12.0
